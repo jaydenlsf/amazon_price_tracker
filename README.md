@@ -22,4 +22,7 @@ Install the following Python libraries:
    - Yes, sending Whatsapp messages using Twilio API do cost money
    
  
- 
+ ### Troubleshooting
+ I doubt anyone would receive blocked response but if you were unable to scrape the page content, try changing your user agent
+ - This could be done by going to your browser and search for 'my user agent'
+ - Copy the displayed string and replace the default headers dictionary in the .py file with that
